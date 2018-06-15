@@ -1,0 +1,2 @@
+python generate_tfrecord.py --csv_input=train_data/v_labels_train.csv --output_path=train_data/vehicle_train.record
+python generate_tfrecord.py --csv_input=train_data/v_labels_test.csv --output_path=train_data/vehicle_test.record
