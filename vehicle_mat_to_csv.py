@@ -28,8 +28,8 @@ v_labels_ymax = []
 for x in data_v:
     for y in x[3].reshape(-1):
         v_labels_f.append(x[0])
-        v_labels_w.append(x[1])
-        v_labels_h.append(x[2])
+        v_labels_w.append(x[2])
+        v_labels_h.append(x[1])
         v_labels_xmin.append(y[0])
         v_labels_ymin.append(y[1])
         v_labels_xmax.append(y[2])

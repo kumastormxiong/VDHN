@@ -1,2 +1,2 @@
 python generate_tfrecord_resize.py --csv_input=train_data_resize/v_labels_train.csv --output_path=train_data_resize/vehicle_train.record
-python generate_tfrecord.py --csv_input=train_data_resize/v_labels_test.csv --output_path=train_data_resize/vehicle_test.record
+python generate_tfrecord_resize.py --csv_input=train_data_resize/v_labels_test.csv --output_path=train_data_resize/vehicle_test.record
